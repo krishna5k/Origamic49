@@ -1,0 +1,57 @@
+h1{
+    color: deeppink;
+}
+*{
+border: solid;
+
+}
+.division1{ display: flex;
+    justify-content: space-between;
+    background-color:#ff7450;
+    
+    }
+    .division2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d2691e;
+    }
+    .division3{
+display: flex;
+justify-content: initial;
+background-color: #f08080;
+
+
+
+    }
+
+    .division3{
+        margin: 50px;
+        padding: 50px;
+        
+        }
+        a:link{
+         colo: blue;   
+        }
+        a:visited{
+            color: red;
+        }
+        .division3 p {
+        position: relative;
+        
+        }
+        .division3 p{
+            position: relative;
+            top: -20%;
+            left: 10%;
+            opacity: 0;
+            transform: translate(-20%,-50);
+        }
+        .division3:hover p{
+        opacity: 1;
+        color: tomato;
+        
+        }
+    body{
+    background-color:#549ea0 ;
+    color:#9400d3;
+    }
